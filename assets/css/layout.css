@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Sans:wght@400;500;700&display=swap');
+@import './reset.css';
+
+
+/* 개발자모드 [커맨드 시프트 c ] */
+
+
+.wrapper{
+    min-width: 1000px;
+}
+
+
+.inner{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.blind{
+    position: absolute;
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+
+ 
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 66px;
+    /* background: #f00; */
+}
+
+.header .logo{}
+.header .logo a{
+    display: block;
+    width: 121px;
+    height: 31px;
+    background: url(https://simg.wooribank.com/img/intro/header/h1_01.png) no-repeat;
+}
+
+.header .auth-area{
+    display: flex;
+    margin-left: 18px;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.header .auth-area .btn-login{
+    width: 80px;height: 30px;
+    background: url(https://simg.wooribank.com/img/common/etc/bg_btn/gnb_member_re1121.png) no-repeat center/contain;
+    color: #fff;
+    padding-left: 6px;
+}
+.header .auth-area .btn-auth{
+    width: 97px; height: 30px;
+    background: url(https://simg.wooribank.com/img/common/etc/bg_btn/gnb_cert_re1203.png) no-repeat center/contain;
+    padding-left: 12px;
+}
+
+
+.header .gnb{
+    margin-left: 29px;
+
+}
+.header .gnb .nav-list{display: flex;gap: 22px;}
+.header .gnb .nav-item{}
+.header .gnb .nav-item .nav{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header .util-area{
+    margin-left: auto;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: -10px;
+}
+.header .util-area ul{display: flex;
+    align-items: center;
+gap: 14px;}
+.header .util-area li{}
+.header .util-area .btn-search{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background:url(https://simg.wooribank.com/img/intro/header/upper_search_icon_new.png) no-repeat;
+}
+
+
+

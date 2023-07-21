@@ -1,0 +1,210 @@
+.sc-visual{}
+.sc-visual .swiper-slide{}
+.sc-visual .swiper-slide a{
+    display: flex;
+   justify-content: center;
+   background:#ecf2fd;
+}
+.sc-visual .swiper-slide img{}
+
+
+.sc-visual .control-area{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 66px;left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    height: 50px;
+    /* background: #f00; */
+    
+}
+.sc-visual .control-area .pagination{
+    display: flex;
+    justify-content: center;
+    width: 142px;;
+    gap: 13px;
+}
+.sc-visual .control-area .swiper-pagination-bullet{
+    background: #000;
+    opacity: 0.6;
+    margin: 0;
+}
+.sc-visual .control-area .swiper-pagination-bullet-active{
+    opacity: 1;
+
+}
+
+.sc-visual .control-area [class*="btn-"]{
+    width: 40px;
+    height: 40px;
+    background: #0f0;
+
+}
+.sc-visual .control-area .btn-autoplay{
+    background: url('https://simg.wooribank.com/img/intro/home/slides_btn_play_new0919.png') no-repeat center;
+
+}
+.sc-visual .control-area .btn-prev{
+    width: 25px;
+    background: url(https://simg.wooribank.com/img/intro/home/slides_btn_previous_new0924.png) no-repeat center/10px;
+    opacity: 0.4;
+}
+.sc-visual .control-area .btn-next{
+    width: 25px;
+    background: url(https://simg.wooribank.com/img/intro/home/slides_btn_next_new0924.png) no-repeat center/10px;
+    opacity: 0.4;
+}
+
+
+
+.sc-quick{
+    position: relative;
+    z-index: 2;
+}
+.sc-quick .content{
+    position: absolute;
+    top: -38px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sc-quick .group-quick{
+    display: flex;
+    width: 772px;
+    background: #3a8dfd;
+    text-align: center;
+    height: 76px;
+    border-radius: 60px;
+    box-shadow: 0px 2px 10px #808080;
+    overflow: hidden;
+}
+.sc-quick .group-quick a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+.sc-quick .group-quick .link-quick{
+    flex: 1;
+    position: relative;
+}
+.sc-quick .group-quick .link-quick+.link-quick::before{
+    width: 1px;
+    height: 16px;
+    background: #9cc5fd;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    content: '';
+}
+.sc-quick .group-quick .link-other{
+    width: 170px;
+    background: #0082cd;
+    font-size: 20px;
+}
+.sc-quick .group-quick .link-menu{
+    width: 170px;
+    background: #fff;
+    color: #000;
+}
+
+
+.sc-quick .group-sub{
+    padding-top: 33px;
+}
+.sc-quick .group-sub ul{
+    display: flex;
+    justify-content: center;
+    color: #7f7e7e;
+    font-weight: bold;
+    gap: 32px;
+}
+
+
+.headline{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.list-inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 123px;
+    /* background: #f00; */
+}
+.sc-list{}
+.sc-list.finance{
+    width: 696px;
+    /* background: #0f0; */
+}
+.sc-list.card{
+    width: 260px;
+    /* background: #00f; */
+}
+.sc-list .list{
+    padding-top: 42px;
+    display: flex;
+}
+.sc-list .item{
+    flex: 1;
+    text-align: center;
+}
+.sc-list .item .thumb-box{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.sc-list .item span{
+    margin-top: 5px;
+    display: block;
+}
+
+
+
+.sc-service{
+    margin-top: 63px;
+}
+.sc-service .headline{}
+.sc-service .service-list{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+.sc-service .service-item{
+    width: 304px;
+    border: 1px solid #d8d8d8;
+}
+.sc-service .service-item .text-box{
+    text-align: center;
+    padding: 15px 0;
+}
+.sc-service .service-item .text-box .title{
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 27px;
+    color: #555;
+}
+.sc-service .service-item .text-box .desc{font-size: 14px;
+    line-height: 20px;
+    color: #666;
+}
+
+
+.board-inner{
+    background: #0f0;
+    margin: 30px 0 50px;
+}
+.board-inner .inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sc-baord{
+    width: 465px;
+    background: #00f;
+}
